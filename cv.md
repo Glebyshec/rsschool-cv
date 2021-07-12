@@ -97,11 +97,3 @@ $ic++;
 ### My contact information: 
 `---` [+375(25) 948-80-19](tel:375259488019)
 
----
-> ## Let me introduce myself
->My full name () {
->   [Last name] => '*Mironov*'
->   [First name] =>'*Egor*'
->   [Patronymic]=> '*Vitalievich*'
->}
----
