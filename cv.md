@@ -1,4 +1,3 @@
-
 # Welcom my profile
 
 [Last name] => '*Mironov*' |  [First name] =>'*Egor*' | [Patronymic]=> '*Vitalievich*'
@@ -32,11 +31,13 @@ My contact information:|  **Phone** ->|  [+375(25) 948-80-19](tel:375259488019)
 ---
 ##### CODE: Will give an example of the code for the *Markdown* markup:
 -- Don't know who selected this task and i thanks to you
+
 ```
 # The first century spans from the year 1 up to and including the year 100, 
 # The second - from the year 101 up to and including the year 200, etc.
 # Task:
 # Given a year, return the century it is in.
+
 function century(year) {
    return (year%100 >= 1)? Math.ceil(year/100): Math.trunc(year/100); 
 }
@@ -47,6 +48,7 @@ function century(year) {
 
 ```
 while ($ic < $countM) {
+
     $categotia = get_terms(array(
         'taxonomy' => 'product_cat',
         'hide_empty' => true,
@@ -56,10 +58,13 @@ while ($ic < $countM) {
    )); 
    $mid_cat = get_term($mas__id_cat[$ic])->name;
    foreach ($categotia as $cat) {
+
     $identificator = $cat->term_id;
     $full__name = 'Category description '. $mid_cat;
     $full__name_two = 'For a subcategory: '. $cat->name;
+
     $id_cat_id = 'ID_cat'.$identificator;
+
     $customizer->add_setting($id_cat_id, 
     array('default' => '')
     );
@@ -71,6 +76,7 @@ while ($ic < $countM) {
         'type' => 'textarea',
     )
     );
+
 }
 $ic++;
 }
@@ -97,3 +103,11 @@ $ic++;
 ### My contact information: 
 `---` [+375(25) 948-80-19](tel:375259488019)
 
+---
+> ## Let me introduce myself
+>My full name () {
+>   [Last name] => '*Mironov*'
+>   [First name] =>'*Egor*'
+>   [Patronymic]=> '*Vitalievich*'
+>}
+---

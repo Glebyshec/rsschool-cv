@@ -1,5 +1,2 @@
 # rsschool-cv
-
-   My projects |
---- |
-[Резюме с использованием разметки Markdown](https://Glebyshec.github.io/rsschool-cv/cv) |  ✓ 
+https://vooodee.github.io/rsschool-cv/cv
